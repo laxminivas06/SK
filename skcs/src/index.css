@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 10s linear infinite; /* Adjust duration as needed */
+  }
+  html, body {
+    touch-action: manipulation; /* Prevents zooming on touch devices */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+  /* Add this CSS to your styles */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-out forwards; /* Adjust duration and easing as needed */
+}
