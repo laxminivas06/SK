@@ -6,7 +6,21 @@ const testimonials = [
     name: "Naresh",
     role: "",
     
-    content: " We ordered food from Sri Karimalesh Caterers for a family event yesterday.Highlights - soft home-feel bobbatlu, stuffed mirchi bajji, pudhina chutney Guests 100% loved the taste Highly recommend",
+    content: "We ordered food from Sri Karimalesh Caterers for a family event on 16-MARCH-2025.Highlights - soft home-feel bobbatlu, stuffed mirchi bajji, pudhina chutney Guests 100% loved the taste Highly recommend",
+    rating: 5
+  },
+  {
+    name: "Nisha",
+    role: "",
+    
+    content: "Thank you, Sri Karimalesh Catters, for the yummy food! Every item was delicious. Gutti Vankaya and Veg Manchurian were especially tasty. 😋🍽️ SK Catters made my event extra special!",
+    rating: 5
+  },
+  {
+    name: "Geeta",
+    role: "",
+    
+    content: "Very true! Felt like home cooked Food .",
     rating: 5
   },
   
