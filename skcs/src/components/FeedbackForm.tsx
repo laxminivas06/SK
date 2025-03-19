@@ -4,6 +4,7 @@ import { MessageCircle } from 'lucide-react';
 const FeedbackForm = () => {
   const events = [
     { id: 1, organizer: 'Naresh', date: '16th March 2025' },
+    { id: 2, organizer: 'Nivas', date: '19th March 2025' },
   ];
 
   const [selectedEvent, setSelectedEvent] = useState(events[0].id); // Default to the first event
