@@ -10,11 +10,11 @@ const MealBox = () => {
 
   const breakfastOptions = [
     { name: "Poha", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Poha_th9h0c.jpg", price: 5.99 },
-    { name: "Idli", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Idli_w1uarq.jpg", price: 5.50 },
+    { name: "Idli", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Idli_w1uarq.jpg", price: 5.99 },
     { name: "Sabudan Khichdi", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Sabudhan_pyrly6.jpg", price: 5.99 },
     { name: "Godhuma rava Upma", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Godhuma_rava_nw8rl3.jpg", price: 5.99 },
     { name: "Pasta", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Pasta_kevysw.jpg", price: 6.99 },
-    { name: "Tomato Bath", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Tomatao_unt7y3.jpg", price: 5.50 },
+    { name: "Tomato Bath", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Tomatao_unt7y3.jpg", price: 5.99 },
   ];
 
   const lunchOptions = [

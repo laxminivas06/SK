@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -12,34 +11,22 @@ const Contact = () => {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('submitting');
     setErrorMessage('');
 
-    try {
-      const { error } = await supabase
-        .from('contact_submissions')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            message: formData.message,
-          },
-        ]);
+    // Construct the WhatsApp message
+    const whatsappMessage = `*Contact Form Submission*\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone}\n*Message:* ${formData.message}`;
+    const whatsappNumber = '+61450056387'; // Replace with your WhatsApp number
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-      if (error) throw error;
+    // Open WhatsApp chat
+    window.open(whatsappUrl, '_blank');
 
-      setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
-
-      // Removed WhatsApp message sending functionality
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      setStatus('error');
-      setErrorMessage(`Failed to submit form: ${error.message}`);
-    }
+    // Reset form and status
+    setStatus('success');
+    setFormData({ name: '', email: '', phone: '', message: '' });
   };
 
   return (
