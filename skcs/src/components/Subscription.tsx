@@ -121,7 +121,7 @@ const Subscription = () => {
             <FontAwesomeIcon icon={faClock} className="w-10 h-10 mr-2 text-yellow-600" />
             <p className="text-gray-700 text-lg">Great for long-term savings with <span className="font-bold text-yellow-700">60 days + 5 FREE days</span>.</p>
           </div>
-          <p className="text-red-600 font-semibold text-lg mb-2">Note: Quarterly plan is available only for 5 days (Monday to Friday).</p>
+          <p className="text-red-600 font-semibold text-lg mb-2">Note: Quarterly plan is available only for 6 days (Monday to Friday).</p>
           <ul className="list-none mb-4">
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
