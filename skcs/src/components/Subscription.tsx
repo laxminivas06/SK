@@ -119,7 +119,7 @@ const Subscription = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Quarterly Plan</h2>
           <div className="flex items-center mb-4">
             <FontAwesomeIcon icon={faClock} className="w-10 h-10 mr-2 text-yellow-600" />
-            <p className="text-gray-700 text-lg">Great for long-term savings with <span className="font-bold text-yellow-700">60 days + 5 FREE days</span>.</p>
+            <p className="text-gray-700 text-lg">Great for long-term savings with <span className="font-bold text-yellow-700">60 days + 6 FREE days</span>.</p>
           </div>
           <p className="text-red-600 font-semibold text-lg mb-2">Note: Quarterly plan is available only for 6 days (Monday to Friday).</p>
           <ul className="list-none mb-4">
