@@ -129,11 +129,11 @@ const Subscription = () => {
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-green-600 mr-2" />
-              <span className="text-lg">Lunch (500ml): $599.99 AUD</span>
+              <span className="text-lg">Lunch (500ml): $589.99 AUD</span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-orange-600 mr-2" />
-              <span className="text-lg">Lunch (750ml): $719.99 AUD</span>
+              <span className="text-lg">Lunch (750ml): $709.99 AUD</span>
             </li>
           </ul>
           <button
