@@ -47,7 +47,7 @@ const Subscription = () => {
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-orange-600 mr-2" />
-              <span className="text-lg">Lunch (500ml): $41.99 AUD</span>
+              <span className="text-lg">Lunch (500ml): $49.99 AUD</span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
@@ -86,15 +86,15 @@ const Subscription = () => {
           <ul className="list-none mb-4">
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mr-2" />
-              <span className="text-lg">Breakfast: $114.99 AUD</span>
+              <span className="text-lg">Breakfast: $119.99 AUD</span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-red-600 mr-2" />
-              <span className="text-lg">Lunch (500ml): $165.99 AUD </span>
+              <span className="text-lg">Lunch (500ml): $199.99 AUD </span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-yellow-600 mr-2" />
-              <span className="text-lg">Lunch (750ml): $249.99 AUD </span>
+              <span className="text-lg">Lunch (750ml): $239.99 AUD </span>
             </li>
           </ul>
           <button
@@ -125,15 +125,15 @@ const Subscription = () => {
           <ul className="list-none mb-4">
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
-              <span className="text-lg">Breakfast: $323.99 AUD</span>
+              <span className="text-lg">Breakfast: $349.99 AUD</span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-green-600 mr-2" />
-              <span className="text-lg">Lunch (500ml): $389.99 AUD</span>
+              <span className="text-lg">Lunch (500ml): $599.99 AUD</span>
             </li>
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faCheckCircle} className="text-orange-600 mr-2" />
-              <span className="text-lg">Lunch (750ml): $599.99 AUD</span>
+              <span className="text-lg">Lunch (750ml): $719.99 AUD</span>
             </li>
           </ul>
           <button
