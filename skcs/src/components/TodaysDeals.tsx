@@ -4,6 +4,24 @@ import { motion } from "framer-motion";
 
 const deals = [
   {
+    "image": "https://res.cloudinary.com/dt3effj06/image/upload/v1742526032/13_mjacqo.png",
+    "title": "Breakfast 22nd March 2025",
+    "description": "🥢 Soft & Fluffy Breakfast! Enjoy our freshly steamed Idli (4 pieces) at just $5.99 AUD! 🥥✨ Served with chutney & sambar for a perfect start to your day! 😍🔥",
+    "whatsappMessage": "I'd like to order the Soft & Fluffy Breakfast with Idli for $5.99 AUD!"
+},
+{
+    "image": "https://res.cloudinary.com/dt3effj06/image/upload/v1742526031/11_kmfhgo.png",
+    "title": "Lunch 22nd March 2025",
+    "description": "🍛 Indulge in our flavorful Tamarind Rice at just $10.99 AUD! 🍋✨ A tangy and aromatic dish, perfectly balanced with spices! 😍🔥",
+    "whatsappMessage": "I'd like to order the delicious Tamarind Rice for $10.99 AUD!"
+},
+{
+    "image": "https://res.cloudinary.com/dt3effj06/image/upload/v1742526032/12_tqhcch.png",
+    "title": "Lunch 22nd March 2025",
+    "description": "🥢 Crispy & Spicy Veg Manchuria at just $11.99 AUD! 🌶️✨ A delightful Indo-Chinese dish, packed with rich flavors and a crunchy texture! 😍🔥",
+    "whatsappMessage": "I'd like to order the Crispy Veg Manchuria for $11.99 AUD!"
+},
+  {
     image: "https://res.cloudinary.com/dt3effj06/image/upload/v1742435816/9_osglkb.png",
     title: "Breakfast 21st March 2025",
     description: "🥢 Soft & Fluffy Breakfast! Enjoy our freshly steamed Idli (4 pieces) at just $5.99 AUD! 🥥✨ Served with chutney & sambar for a perfect start to your day! 😍🔥",
