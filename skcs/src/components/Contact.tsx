@@ -137,9 +137,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium">Address</h4>
                   <p className="text-gray-600">
-                    27A Purcell Crescent, Lalor Park, <br />
-                    Sydney, NSW 2147<br />
-                    Australia
+                  Seven Hills, Sydney, NSW,2147.
                   </p>
                 </div>
               </div>

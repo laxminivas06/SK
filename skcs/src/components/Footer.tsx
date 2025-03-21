@@ -32,7 +32,7 @@ const Footer = () => {
         {/* Contact & Social Media */}
         <div>
           <h3 className="text-xl font-bold mb-3">Contact Us</h3>
-          <p className="text-gray-600">📍 Sydney, Australia</p>
+          <p className="text-gray-600">📍Seven Hills, Sydney, NSW,2147.</p>
           <p className="text-gray-600">📞 +61 450 056 387</p>
           <p className="text-gray-600">✉️ srikarimaleshcaterers@gmail.com</p>
 
