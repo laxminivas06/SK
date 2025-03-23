@@ -2,6 +2,14 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
 const categoryItems = {
+  Breakfast: [
+    { name: "Poha", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Poha_th9h0c.jpg" },
+    { name: "Idli", prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Idli_w1uarq.jpg" },
+    { name: "Sabudan Khichdi", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Sabudhan_pyrly6.jpg" },
+    { name: "Godhuma rava Upma",  prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Godhuma_rava_nw8rl3.jpg" },
+    { name: "Pasta", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Pasta_kevysw.jpg" },
+    { name: "Tomato Bath",  prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Tomatao_unt7y3.jpg" },
+  ],
   Sweets: [
     { name: "Rava Kesari", prices: { S: 7.99 }, img: "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/kesari-recipe-1-500x500.jpg" },
     { name: "Gulab Jamun", prices: { 1: 7.99 }, img: "https://theartisticcook.com/wp-content/uploads/2024/10/Gulab-Jamun-with-Milk-Powder.jpg" },
@@ -151,9 +159,10 @@ const CategoryPage: React.FC = () => {
                 <img src={item.img} alt={item.name} className="w-full h-40 object-cover rounded-md mb-4" />
                 <h3 className="text-xl font-semibold text-orange-900">{item.name}</h3>
                 
-                <p className="text-lg text-gray-700">
+                {/* Removed Price Display */}
+                {/* <p className="text-lg text-gray-700">
                   Price: ${item.name === "Gulab Jamun" ? (customQuantity * 1).toFixed(2) : item.name === "Bobbatlu" ? (customQuantity * 2).toFixed(2) : item.prices["S"].toFixed(2)} AUD
-                </p>
+                </p> */}
 
                 {/* Custom Quantity Input for Gulab Jamun and Bobbatlu */}
                 {(item.name === "Gulab Jamun" || item.name === "Bobbatlu") && (
@@ -171,11 +180,11 @@ const CategoryPage: React.FC = () => {
 
                 {/* Add to Cart Button */}
                 <button
-  onClick={() => addToCart(item, customQuantity, selectedOption, index)}
-  className={`mt-4 px-4 py-2 rounded-md transition ${addedToCart[index] ? 'bg-green-600' : 'bg-gray-400'} text-white`}
->
-  {addedToCart[index] ? "Added to Cart" : "Add to Cart"}
-</button>
+                  onClick={() => addToCart(item, customQuantity, selectedOption, index)}
+                  className={`mt-4 px-4 py-2 rounded-md transition ${addedToCart[index] ? 'bg-green-600' : 'bg-gray-400'} text-white`}
+                >
+                  {addedToCart[index] ? "Added to Cart" : "Add to Cart"}
+                </button>
               </div>
             );
           })}
