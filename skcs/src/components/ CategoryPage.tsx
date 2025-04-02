@@ -3,18 +3,18 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const categoryItems = {
   Breakfast: [
-    { name: "Poha", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Poha_th9h0c.jpg" },
-    { name: "Idli", prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Idli_w1uarq.jpg" },
+    { name: "Poha", prices: { S: 7.99 }, img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/poha-recipe.webp" },
+    { name: "Idli", prices: { S: 7.99 },img: "https://media.istockphoto.com/id/638506124/photo/idli-with-coconut-chutney-and-sambhar.jpg?s=612x612&w=0&k=20&c=ze1ngBM0LY4w9aqWx_tGe2vTAr4uf36elveTDZ83fgw=" },
     { name: "Sabudan Khichdi", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Sabudhan_pyrly6.jpg" },
     { name: "Godhuma rava Upma",  prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Godhuma_rava_nw8rl3.jpg" },
     { name: "Pasta", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Pasta_kevysw.jpg" },
-    { name: "Tomato Bath",  prices: { S: 7.99 },img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Tomatao_unt7y3.jpg" },
+    { name: "Tomato Bath",  prices: { S: 7.99 },img: "https://vismaifood.com/storage/app/uploads/public/2d7/f19/72f/thumb__1200_0_0_0_auto.jpg" },
   ],
   Sweets: [
     { name: "Rava Kesari", prices: { S: 7.99 }, img: "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/kesari-recipe-1-500x500.jpg" },
     { name: "Gulab Jamun", prices: { 1: 7.99 }, img: "https://theartisticcook.com/wp-content/uploads/2024/10/Gulab-Jamun-with-Milk-Powder.jpg" },
     { name: "Carrot Halwa", prices: { S: 7.99 }, img: "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2016/01/Gajar-ka-Halwa-03.jpg" },
-    { name: "Semiya Payasam", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741975360/semiya_xwuf4k.jpg" },
+    { name: "Semiya Payasam", prices: { S: 7.99 }, img: "https://www.kaipunnyam.com/cdn/shop/files/semiya.jpg?v=1724499053" },
     { name: "Chakra Pongali", prices: { S: 7.99 }, img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/anusha.pariti-gmail.com/Chakkra_Pongali_recipe_edited1.jpg" },
     { name: "Double Ka Meeta", prices: { S: 7.99 }, img: "https://x9s2d6a3.delivery.rocketcdn.me/wp-content/uploads/2018/04/double-ka-meetha-25_1200x1200.jpg" },
     { name: "Bobbatlu", prices: { 1: 7.99 }, img: "https://www.madhuseverydayindian.com/wp-content/uploads/2021/08/bobbatlu.jpg" },
@@ -37,7 +37,7 @@ const categoryItems = {
   "Rice Items": [
     { name: "Lemon Rice", prices: { S: 7.99 }, img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/lemon-rice-recipe.jpg" },
     { name: "Temple Style Pulihora(Tamarind)", prices: { S: 7.99 }, img: "https://i.ytimg.com/vi/GLdLE_u13EY/maxresdefault.jpg" },
-    { name: "Coriander Rice", prices: { S: 7.99 }, img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741975360/pudina_hsphhm.jpg" },
+    { name: "Coriander Rice", prices: { S: 7.99 }, img: "https://images.picxy.com/cache/2020/8/6/7c9d195a5ad1ec02efdb056e626a080f.jpg" },
     { name: "Tomato Rice", prices: { S: 7.99 }, img: "https://aromaticessence.co/wp-content/uploads/2022/11/tomato_rice_featured_image.jpg" },
     { name: "Jeera Rice", prices: { S: 7.99 }, img: "https://www.whiskaffair.com/wp-content/uploads/2021/06/Jeera-Rice-2-3-1.jpg" },
     { name: "Fried Rice", prices: { S: 7.99 }, img: "https://www.onceuponachef.com/images/2023/12/Fried-Rice-Hero-12.jpg" },

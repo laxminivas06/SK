@@ -9,22 +9,22 @@ const MealBox = () => {
   const [lunchContainerSize, setLunchContainerSize] = useState<{ [key: string]: "500ml" | "750ml" }>({}); // Track container sizes for lunch items
 
   const breakfastOptions = [
-    { name: "Poha", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Poha_th9h0c.jpg", price: 5.99 },
-    { name: "Idli", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Idli_w1uarq.jpg", price: 5.99 },
+    { name: "Poha", img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/poha-recipe.webp", price: 5.99 },
+    { name: "Idli", img: "https://media.istockphoto.com/id/638506124/photo/idli-with-coconut-chutney-and-sambhar.jpg?s=612x612&w=0&k=20&c=ze1ngBM0LY4w9aqWx_tGe2vTAr4uf36elveTDZ83fgw=", price: 5.99 },
     { name: "Sabudan Khichdi", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Sabudhan_pyrly6.jpg", price: 5.99 },
     { name: "Godhuma rava Upma", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Godhuma_rava_nw8rl3.jpg", price: 5.99 },
     { name: "Pasta", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Pasta_kevysw.jpg", price: 6.99 },
-    { name: "Tomato Bath", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741683945/Tomatao_unt7y3.jpg", price: 5.99 },
+    { name: "Tomato Bath", img: "https://vismaifood.com/storage/app/uploads/public/2d7/f19/72f/thumb__1200_0_0_0_auto.jpg", price: 5.99 },
   ];
 
   const lunchOptions = [
     { name: "Mint Coriander Rice", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741975360/pudina_hsphhm.jpg", price: { "500ml": 9.99, "750ml": 13.99 } },
-    { name: "Lemon Rice", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684265/Lemon_rice_sdzeca.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
+    { name: "Lemon Rice", img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/lemon-rice-recipe.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
     { name: "Pulihora (Tamarind Rice)", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684265/Tamarind_rice_pipade.jpg", price: { "500ml": 6.99, "750ml": 10.99 } },
     { name: "Tomato Rice", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684872/Tomato_Rice_wixx29.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
-    { name: "Veg Pulao", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684266/Veg_pulao_gr2bfl.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
+    { name: "Veg Pulao", img: "https://t3.ftcdn.net/jpg/04/95/11/64/360_F_495116494_Jl8p8EACV6ROb7s1bc7zgNUdJp5yYJzE.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
     { name: "Veg Panner Pulao", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684878/Veg_Panner_Pulao_a66ee2.jpg", price: { "500ml": 9.99, "750ml": 13.99 } },
-    { name: "Mushroom Pulao", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684265/Mushroom_rice_zxu7w0.jpg", price: { "500ml": 8.99, "750ml": 12.99 } },
+    { name: "Mushroom Pulao", img: "https://sinfullyspicy.com/wp-content/uploads/2023/07/1200-by-1200-images-4.jpg", price: { "500ml": 8.99, "750ml": 12.99 } },
     { name: "Curd Rice", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741684264/Curd_rice_ox8tfr.jpg", price: { "500ml": 7.99, "750ml": 11.99 } },
     { name: "Bisibelebath", img: "https://res.cloudinary.com/dt3effj06/image/upload/v1741698724/so9tvnlkudzgcjp06qbg.jpg", price: { "500ml": 9.99, "750ml": 13.99 } },
   ];
