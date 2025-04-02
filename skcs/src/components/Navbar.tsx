@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="https://res.cloudinary.com/dt3effj06/image/upload/v1740503772/SK.svg"
+              src="https://media-hosting.imagekit.io/61f2e88b983e421a/sk%20Logo.png?Expires=1838168049&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=o-DNPhUXxPRLU2rcLJ8SayuJdE3oVpaQf8SxwbJ-tXsgfepayerO9M0voP0SMGwTVYWN3P3usTqIcFRLuWDnTvEKmcQuSKIh~-FuCYHtjgjKFHKOIgb-5C8Is0MXezXEInt-ClF7xTjUlolyJRuxvqJxG1HVGHuO5OXrTyBkuf7F4ayuoZhWs2HQFJZqlYAzqZBbcASJ8RXDc8wo0KpUcij9wajAjPNwb6QwCKaUqbslGHWUlhjavE2e8h3rJcpcJ1JMgT9g9Ucj89hZf6MaRq4NzYh4n8TvgtGCGt~nLXpnSVQ7NjZT42jR1wAwi45kMZvyXbiH3IVVbtMRfy2Bng__"
               alt="Sri Karimalesh Caterings Logo"
               className="h-12 w-auto"
             />
