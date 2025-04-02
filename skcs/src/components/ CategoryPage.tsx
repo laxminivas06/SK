@@ -24,7 +24,7 @@ const categoryItems = {
     { name: "Potato Fry", prices: { S: 7.99 }, img: "https://www.cookwithnabeela.com/wp-content/uploads/2024/05/AlooFry.webp" },
     { name: "Soya Fry", prices: { S: 7.99 }, img: "https://i.ytimg.com/vi/2a4tlAUAGQI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD8rCaCp1vWprQ9__uxJrx68jGPPQ" },
     { name: "Egg Plant Fry", prices: { S: 7.99 }, img: "https://i.ytimg.com/vi/a8WHXJrKOHI/maxresdefault.jpg" },
-    { name: "Cabbage Fry", prices: { S: 7.99 }, img: "https://lh4.googleusercontent.com/S--PeValmjExVDYkf02IN3W1sN_pgJa0KHHwDM4BZhUkWm-B-lB9m05zAWCgsSOgffhCi9tIwyD1W1_LYc0nydGUFO3jN9qbtSS4B74Zup6vdm6HSu0178R9GIejyfVwgN72Y1g2" },
+    { name: "Cabbage Fry", prices: { S: 7.99 }, img: "https://www.cookrepublic.com/wp-content/uploads/2017/06/cabbage-thoran1.jpg" },
   ],
   Pickles: [
     { name: "Tomato Pickle", prices: { "250g": 7.99 }, img: "https://www.archanaskitchen.com/images/archanaskitchen/Indian_Pickles/Spicy_Tomato_Pickle_Recipe_South_Indian_Thakkali_Thokku.jpg" },

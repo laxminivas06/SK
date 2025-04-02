@@ -67,9 +67,9 @@ const Hero = () => {
 
       <div className="relative z-10 text-center text-white px-6 flex flex-col items-center justify-center h-full">
         <img
-          src="https://res.cloudinary.com/dt3effj06/image/upload/v1741682845/hv_vcp39h.svg"
+          src="https://media-hosting.imagekit.io/00067b05409e4015/hv.png?Expires=1838167059&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cA7FZDWitZZMf3YitSNIPsE8fd2v-PEo1AsBkqGhSqtgiIcRgtkbGhNSN-A284ZdpK2UEz23Mr-OXPX7wbH3sUM9BaxXEvpMy-uGfxDPctiZLWaQ3Xbb1dE3QF5Su5tTlATzeTv0bpRDScxOO~CKeY1eHOKAIK65Vf3yCYlAF8lKkggrk~gkV8dqbO5GvW7M7jYDWw~LeERYd6HEz87MN2pe2F~BFHreL7ik-vaMRFH5-LBPGl9~O6HSDfHDw-p4g3~-hSMx4S115yviWzTIQsOeqQxWprc3Sgk3HNqsUYDuDmFcXkxmQ7am3GdCWcoqrU~aIkYFYkaEiN1FfivHWg__"
           alt="Sri Karimalesh Caterings Logo"
-          className="w-3/4 md:w-1/2 h-auto mx-auto mb-6 mt-4" 
+          className="w-max md:w-1/2 h-max mx-auto mb-6 mt-4" 
         />
 
         <div className="space-y-4">

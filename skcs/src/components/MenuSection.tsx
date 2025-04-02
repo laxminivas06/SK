@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link for navigation
 
 const menuCategories = [
-  { name: "Breakfast", icon: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3g2eGx4cjFwMDJibXUwa29maGkwdXk2cWkyNWUzZ3I3dXh4dDk3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7WuKx78bJYpeY3p7IM/giphy.gif" },
+  { name: "Breakfast", icon: "https://sukhis.com/app/uploads/2019/09/Indian-Breakfast.jpg" },
   { name: "Sweets", icon: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3g2eGx4cjFwMDJibXUwa29maGkwdXk2cWkyNWUzZ3I3dXh4dDk3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7WuKx78bJYpeY3p7IM/giphy.gif" },
   { name: "Fry Items", icon: "https://res.cloudinary.com/dt3effj06/video/upload/v1741805680/sk_catering_available_12_kxjqfz.mp4" },
   { name: "Starters", icon: "https://res.cloudinary.com/dt3effj06/video/upload/v1741804936/4_rbyl7o.mp4" },

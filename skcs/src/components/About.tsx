@@ -12,7 +12,7 @@ const About = () => {
         className="flex justify-center mb-12"
       >
         <img
-          src="https://res.cloudinary.com/dt3effj06/image/upload/v1741512048/Fonal_gtvvfi.svg"
+          src="https://media-hosting.imagekit.io/00067b05409e4015/hv.png?Expires=1838167059&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cA7FZDWitZZMf3YitSNIPsE8fd2v-PEo1AsBkqGhSqtgiIcRgtkbGhNSN-A284ZdpK2UEz23Mr-OXPX7wbH3sUM9BaxXEvpMy-uGfxDPctiZLWaQ3Xbb1dE3QF5Su5tTlATzeTv0bpRDScxOO~CKeY1eHOKAIK65Vf3yCYlAF8lKkggrk~gkV8dqbO5GvW7M7jYDWw~LeERYd6HEz87MN2pe2F~BFHreL7ik-vaMRFH5-LBPGl9~O6HSDfHDw-p4g3~-hSMx4S115yviWzTIQsOeqQxWprc3Sgk3HNqsUYDuDmFcXkxmQ7am3GdCWcoqrU~aIkYFYkaEiN1FfivHWg__"
           alt="Sri Karimalesh Caterings Logo"
           className="w-max h-auto  animate-pulse drop-shadow-lg mx-auto mb-1 mt-20"
         />
