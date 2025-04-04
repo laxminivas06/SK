@@ -5,7 +5,6 @@ const MealBox = () => {
   const [breakfastQuantities, setBreakfastQuantities] = useState<{ [key: string]: number }>({}); // Track quantities for breakfast items
   const [lunchQuantities, setLunchQuantities] = useState<{ [key: string]: number }>({}); // Track quantities for lunch items
   const [cart, setCart] = useState<{ name: string; price: number; img: string; quantity: number; pack: string; source: "breakfast" | "lunch" }[]>([]); // State for cart items
-  const [totalAmount, setTotalAmount] = useState(0); // State for total amount
   const [lunchContainerSize, setLunchContainerSize] = useState<{ [key: string]: "500ml" | "750ml" }>({}); // Track container sizes for lunch items
 
   const breakfastOptions = [
