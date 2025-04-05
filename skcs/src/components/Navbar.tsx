@@ -66,14 +66,19 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle mobile menu">
+          <button class ="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle mobile menu">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden bg-gray-100 text-gray-800 py-2 rounded-md shadow-md transition-all duration-300">
+        {/* Mobile Slide-out Menu */}
+        <div className={`fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+          <div className={`fixed right-0 top-0 w-64 bg-white h-full shadow-lg transform transition-transform ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+            <div className="flex justify-end p-4">
+              <button onClick={() => setIsOpen(false)} aria-label="Close menu">
+                <X size={24} />
+              </button>
+            </div>
             <div className="px-4 space-y-2">
               <button onClick={() => handleNavigation("/menu")} className="block px-3 py-2 rounded-md hover:bg-gray-200 w-full text-left">
                 Catering
@@ -81,7 +86,7 @@ const Navbar = () => {
               <button onClick={() => handleNavigation("/meal-box")} className="block px-3 py-2 rounded-md hover:bg-gray-200 w-full text-left">
                 Daily Box
               </button>
-              <button onClick={() => handleNavigation("/trip-packages")} className="block px- 3 py-2 rounded-md hover:bg-gray-200 w-full text-left">
+              <button onClick={() => handleNavigation("/trip-packages")} className="block px-3 py-2 rounded-md hover:bg-gray-200 w-full text-left">
                 Trip Packages
               </button>
               <button onClick={() => handleNavigation("/subscription")} className="block px-3 py-2 rounded-md hover:bg-gray-200 w-full text-left">
@@ -101,7 +106,7 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-        )}
+        </div>
 
         {/* Cart Notification */}
         {cartNotification && (
