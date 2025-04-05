@@ -6,6 +6,7 @@ const MealBox = () => {
   const [lunchQuantities, setLunchQuantities] = useState<{ [key: string]: number }>({}); // Track quantities for lunch items
   const [cart, setCart] = useState<{ name: string; price: number; img: string; quantity: number; pack: string; source: "breakfast" | "lunch" }[]>([]); // State for cart items
   const [lunchContainerSize, setLunchContainerSize] = useState<{ [key: string]: "500ml" | "750ml" }>({}); // Track container sizes for lunch items
+  const [totalAmount, setTotalAmount] = useState(0); // State for total amount
 
   const breakfastOptions = [
     { name: "Poha", img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/poha-recipe.webp", price: 5.99 },
@@ -132,7 +133,7 @@ const MealBox = () => {
               <div key={index} className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
                 <img src={item.img} alt={item.name} className="w-full h-48 object-cover mb-4 rounded-lg" />
                 <h4 className="text-lg font-semibold">{item.name}</h4>
-                <span className=" text-lg font-bold">Price: ${item.price} AUD</span>
+                <span className="text-lg font-bold">Price: ${item.price} AUD</span>
                 {/* Quantity Adjustment for Breakfast */}
                 <div className="flex justify-center items-center mt-4">
                   <button
@@ -224,7 +225,7 @@ const MealBox = () => {
                   />
                   <button
                     onClick={() => handleQuantityChange(item.name, "lunch", 1)}
-                    className="bg-green-500 text-white px-4 py-2 rounded-r-md hover bg-green-600 transition duration-200"
+                    className="bg-green-500 text-white px-4 py-2 rounded-r-md hover:bg-green-600 transition duration-200"
                   >
                     +
                   </button>

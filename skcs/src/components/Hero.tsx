@@ -95,7 +95,7 @@ const Hero = () => {
         </div>
 
         {/* New Container for Today's Deals without Animation */}
-        <div className="mt-10 bg-transparent-500 p-4 rounded-lg shadow-lg">
+        {/* <div className="mt-10 bg-transparent-500 p-4 rounded-lg shadow-lg">
           <span className="text-white text-2xl font-bold ">🔥 Today's Deals are live! Check them out!</span>
           <div className="mt-4">
             <Link
@@ -105,7 +105,7 @@ const Hero = () => {
               Today's Deals
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div ref={containerRef} className="bg-white py-10">
